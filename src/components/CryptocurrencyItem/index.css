@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.currency-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coin-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.currency-logo {
+  height: 30px;
+  width: 40px;
+  margin-right: 17px;
+}
+.currency-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+
+  margin-top: 4px;
+}
+
+.euro-usd-container {
+  display: flex;
+  flex-direction: row;
+}
+.euro-value {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.usd-value {
+  color: #ffffff;
+
+  margin-right: 20px;
+}
